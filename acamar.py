@@ -223,7 +223,7 @@ except IndexError:
     sys.exit()
 
 result = []
-output = open('results/' + domain + '.txt', 'w')
+output = open('/root/Rock-ON/Tools/Acamar/results/' + domain + '.txt', 'w')
 
 print('[~] Acamar.py v.0.1 written by @SI9INT | Target set to: ' + domain)
 
